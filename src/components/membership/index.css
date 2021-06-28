@@ -1,0 +1,216 @@
+/* CUSTOM ANT CSS */
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: white;
+}
+  
+.ant-steps-item-finish .ant-steps-item-icon {
+  background-color: #0F61D9;
+  border-color: #0F61D9;
+}
+  
+.ant-steps-item-process .ant-steps-item-icon {
+  background-color: #fff;
+  border-color: #0F61D9;
+}
+  
+.ant-steps-item-icon {
+  border: 2px solid rgba(0, 0, 0, 0.25);
+}
+
+.ant-steps-item-icon:hover {
+  border-color: #0F61D9;
+}
+  
+.anticon-check {
+  color: white;
+}
+  
+.ant-steps-small .ant-steps-item-icon {
+  line-height: 20px;
+}
+  
+/* MEMBERSHIP CSS */
+.container {
+    background-color: #f2f4f8;
+}
+  
+.stepStyle {
+  padding: 1em;
+}
+  
+@media (min-width: 40em) {
+  .subContainer {
+    display: flex;
+    margin-top: 1.5em;
+  }
+  
+  .stepStyle {
+    flex-basis: 20%;
+  }
+}
+  
+.steps-content {
+  min-height: 600px;
+  padding: 0.3em;
+}
+  
+@media (min-width: 40em) {
+  .steps-content {
+    flex: 1;
+    margin-top: 1em;
+    max-width: 555px;
+    padding: 0;
+  }
+}
+  
+/* CONTAINER CSS */
+.inner-container {
+  background-color: #ffffff;
+  padding: 1em;
+  border-radius: 2em;
+}
+
+@media (min-width: 40em) {
+  .inner-container {
+    padding: 1.7em;
+  }
+}
+
+.outer-container > * + * {
+  margin-top: 1.8em;
+}
+
+.outer-container {
+  padding-bottom: 1.8em;
+}
+
+.inner-container > * + * {
+  margin-top: 1.5em;
+}
+
+.headerContainer {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* CART */
+
+.basic-cart {
+  text-align: center;
+  color: white;
+  width: 70px;
+  padding: 1.2em;
+  border-radius: 1.5em;
+  background-color: #0F61D9;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.cart-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.cart-text {
+  display: inline-block;
+}
+
+/* UTILITIES */
+
+.text-color__primary {
+  color: #031F48;
+}
+
+.text-color__secondary {
+  color: #75849B;
+}
+
+.header-text {
+  display: inline-block;
+  color: #0F61D9;
+}
+
+.text-weight__secondary {
+  font-weight: 700;
+}
+
+.m-0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mb-1 {
+  margin-bottom: 0.5em;
+}
+
+.mt-2 {
+  margin-top: 2.25em;
+}
+
+.p-1 {
+  padding: 1em;
+}
+
+.required {
+  color: red;
+}
+
+/* BUTTON */
+.button {
+  background-color: transparent;
+  font-size: 1rem;
+  padding: 0.2em 0.8em;
+  border-radius: 0.25em;
+  border: 1px solid #B7D4FD;
+  cursor: pointer;
+}
+
+.button-color__primary {
+  background-color: #0F61D9;
+  color: #ffffff;
+  border-color: #0F61D9;
+}
+
+.button-color__secondary {
+  background-color: #75849B;
+  color: #ffffff;
+  border-color: #75849B;
+}
+
+.button__small {
+  font-size: 0.8rem;
+}
+
+.button__large {
+  padding: 0.5em 3.5em;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 40em) {
+  .button__large {
+    padding: 0.5em 6.5em;
+    font-size: 1.1rem;
+  }
+}
+
+.button-align__right {
+  text-align: right;
+}
+
+.button-align__center {
+  text-align: center;
+}
+
+.flutterwave {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
+.stripe {
+  margin-top: 0;
+}
+
+.flutterIcon {
+  margin-right: 0.3em;
+}
